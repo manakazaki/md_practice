@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* ＝＝＝＝＝＝ここからトップページ＝＝＝＝＝＝ */
+
+
+
+
+
+
+/* ＝＝＝＝＝＝ここからキャラクター紹介＝＝＝＝＝＝ */
+body {
+    background-color: rgba(255, 185, 80, 0.445);
+    background-image: url(images/三角背景.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    background-size: 600px;
+    background-attachment: fixed;
+}
+
+header,section,footer,#pagetop,div {
+    text-align: center;
+    background-color: #FFF;
+    margin: 0 auto 0 auto;
+    width: 1080px;
+}
+
+section {
+    padding: 40px;
+}
+
+h1 {
+    color: white;
+    background-color: #ffe669;
+    font-size: 200%;
+    line-height: 3;
+    font-family: cursive;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+/* CSSのバナーをネットから引用ここから */
+.nav {
+    width: 900px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+  }
+  a.btn_10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    height: 50px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+  }
+  a.btn_10 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transition-duration: 0.2s;
+  }
+  a.btn_10:hover span {
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+  }
+/* CSSのバナーをネットから引用ここまで */
+/* しばんばん */
+#s01 h2 {
+    color: blanchedalmond;
+    background-color: #69cdff;
+    padding: 5px;
+}
+/* くろばんばん */
+#s02 h2 {
+    color: blanchedalmond;
+    background-color: #fa8072;
+    padding: 5px;
+}
+/* にゃばんばん */
+#s03 h2 {
+    color: blanchedalmond;
+    background-color: #69ff82;
+    padding: 5px;
+}
+
+
+section a {
+    color: #0037cf;
+}
+
+section a:hover {
+    color: #ba4040;
+}
+
+#s05 a {
+    color: blue;
+}
+
+#s05 a:hover {
+    color: #ba4040;
+}
+
+#s05 p {
+    color: blue;
+}
+
+#s05 p:hover {
+    color: #ba4040
+}
+
+header h1 {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    background-color: #ffce99;
+    width: 300px;
+    margin: 20px auto;
+    
+}
+nav ul{
+    padding-left: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    width: 25%;
+    float: left;
+}
+nav ul li a{
+    background-color: rgba(255, 145, 0, 0.514);
+    color: brown;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:white;
+}
+
+
